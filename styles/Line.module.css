@@ -1,8 +1,0 @@
-.lines {
-	background-color: var(--line-color);
-	mask-image: url('/line.svg');
-	mask-position: center;
-	mask-repeat: repeat-x;
-	height: 50px;
-	width: 100%;
-}
