@@ -1,87 +1,16 @@
 @font-face {
-	font-family: 'IBMPlexSans';
-	src: url('/fonts/IBMPlexSans/IBMPlexSans-Regular.ttf');
+	font-family: 'MPLUSRounded1c';
+	src: url('/fonts/MPLUSRounded1c/MPLUSRounded1c-ExtraBold.ttf');
 	font-style: normal;
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: 'IBMPlexSans';
-	src: url('/fonts/IBMPlexSans/IBMPlexSans-Bold.ttf');
-	font-style: normal;
-	font-weight: bold;
-}
-
-:root {
-	--primary: #fff;
-	--secondary: #fff;
-	--text: #e9e6ed;
-	--background: #131214;
-	--gradient: linear-gradient(
-		125deg,
-		rgba(71, 5, 136, 1) 0%,
-		rgba(128, 27, 228, 1) 100%
-	);
+	font-weight: 800;
 }
 
 html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: IBMPlexSans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	background-color: var(--background);
-	color: var(--text);
-}
-
-@keyframes gradient {
-	from {
-		background-position: left;
-	}
-
-	to {
-		background-position: right;
-	}
-}
-
-h1 {
-	font-weight: bold;
-	font-size: 5em;
-	text-transform: uppercase;
-	margin: 0.5rem 0;
-
-	background-image: var(--gradient);
-	background-clip: text;
-	background-size: 500%;
-	animation: gradient 5s infinite alternate;
-	transition: all ease-in-out linear;
-	color: transparent;
-	text-align: center;
-}
-
-span {
-	font-weight: normal;
-	font-size: 1rem;
-	text-align: center;
-}
-
-a {
-	color: inherit;
-	text-decoration: none;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-@media only screen and (max-width: 600px) {
-	h1 {
-		font-size: 3rem;
-	}
-}
-
-@media only screen and (max-width: 375px) {
-	h1 {
-		font-size: 2rem;
-	}
+	font-family: 'MPLUSRounded1c', -apple-system, BlinkMacSystemFont, Segoe UI,
+		Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+		sans-serif;
+	font-size: 16px;
 }
