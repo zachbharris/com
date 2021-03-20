@@ -44,19 +44,6 @@ body {
 	}
 }
 
-body:after {
-	content: '';
-	display: block;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	background-image: var(--gradient);
-	background-size: 500%;
-	animation: gradient 5s infinite alternate;
-	height: 0.5rem;
-	width: 100%;
-}
-
 h1 {
 	font-weight: bold;
 	font-size: 5em;
